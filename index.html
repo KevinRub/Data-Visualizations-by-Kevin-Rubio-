@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualizations by Kevin Rubio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>📊 <span>Data Visualizations</span> by Kevin Rubio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="https://linkedin.com/in/kevin-alberto-gonz%C3%A1lez-rubio-b0b394127/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Power BI <span>Portfolio</span></h2>
+                <p>Dashboards interactivos, arquitectura de datos y soluciones BI diseñadas para transformar datos en decisiones estratégicas.</p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn-primary">Ver proyectos <i class="fas fa-arrow-right"></i></a>
+                    <a href="#sobre-mi" class="btn-secondary">Sobre mí</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">6+</span>
+                    <span class="stat-label">Años de experiencia</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label">Dashboards creados</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Usuarios activos</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROYECTOS ===== -->
+    <section id="proyectos" class="proyectos">
+        <div class="container">
+            <h2 class="section-title">Proyectos <span>destacados</span></h2>
+            <p class="section-subtitle">Cada proyecto resuelve un problema real de negocio con una solución visual y escalable.</p>
+
+            <div class="grid-proyectos">
+
+                <!-- Proyecto 1: Supply Chain -->
+                <div class="card-proyecto">
+                    <div class="card-image">
+                        <img src="assets/screenshots/proyecto1.png" alt="Supply Chain Dashboard">
+                        <span class="badge">Power BI</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Supply Chain Analytics</h3>
+                        <p>Dashboard de control de inventario y logística con alertas automáticas de stock y proyección de demanda.</p>
+                        <div class="card-tech">
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>Power Query</span>
+                            <span>SQL</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="proyectos/01-supply-chain/README.md" target="_blank" class="btn-card"><i class="fas fa-book"></i> Detalles</a>
+                            <a href="#" class="btn-card" onclick="alert('Próximamente en Power BI Service')"><i class="fas fa-eye"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: Marketing Digital -->
+                <div class="card-proyecto">
+                    <div class="card-image">
+                        <img src="assets/screenshots/proyecto2.png" alt="Marketing Dashboard">
+                        <span class="badge">Power BI</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Digital Marketing ROI</h3>
+                        <p>Análisis de campañas digitales con métricas de conversión, costo por adquisición y retorno de inversión por canal.</p>
+                        <div class="card-tech">
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>Power Query</span>
+                            <span>Excel</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="proyectos/02-marketing-digital/README.md" target="_blank" class="btn-card"><i class="fas fa-book"></i> Detalles</a>
+                            <a href="#" class="btn-card" onclick="alert('Próximamente en Power BI Service')"><i class="fas fa-eye"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3: BYOT -->
+                <div class="card-proyecto">
+                    <div class="card-image">
+                        <img src="assets/screenshots/proyecto3.png" alt="BYOT Dashboard">
+                        <span class="badge">Power BI</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Build Your Own Table (BYOT)</h3>
+                        <p>Dashboard paramétrico donde el usuario selecciona dimensiones y medidas para construir su propia tabla dinámica en tiempo real.</p>
+                        <div class="card-tech">
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>Parámetros</span>
+                            <span>Bookmarks</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="proyectos/03-byot-dinamico/README.md" target="_blank" class="btn-card"><i class="fas fa-book"></i> Detalles</a>
+                            <a href="#" class="btn-card" onclick="alert('Próximamente en Power BI Service')"><i class="fas fa-eye"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE MÍ ===== -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <h2>Sobre <span>mí</span></h2>
+                    <p>Soy <strong>Senior Data Analyst</strong> con más de 6 años de experiencia transformando datos complejos en soluciones visuales que impulsan decisiones estratégicas.</p>
+                    <p>Especializado en <strong>Power BI, DAX, Power Query, SQL y arquitectura de datos</strong> en la nube (Azure, GCP). He trabajado con clientes globales como L'Oréal y actualmente lidero equipos técnicos en Infosys.</p>
+                    <p>Me apasiona crear dashboards que no solo informen, sino que <strong>empoderen a los usuarios</strong> para explorar sus propios datos.</p>
+                    <div class="sobre-skills">
+                        <span>Power BI</span>
+                        <span>DAX</span>
+                        <span>Power Query</span>
+                        <span>SQL</span>
+                        <span>Azure</span>
+                        <span>GCP</span>
+                        <span>Power Automate</span>
+                        <span>Data Modeling</span>
+                    </div>
+                    <a href="https://linkedin.com/in/kevin-alberto-gonz%C3%A1lez-rubio-b0b394127/" target="_blank" class="btn-primary"><i class="fab fa-linkedin"></i> Conectar en LinkedIn</a>
+                </div>
+                <div class="sobre-foto">
+                    <div class="foto-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Kevin Rubio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="section-title">¿Hablamos?</h2>
+            <p class="section-subtitle">Si necesitas un dashboard, una solución BI o simplemente quieres conectar, escríbeme.</p>
+            <div class="contacto-links">
+                <a href="mailto:kevinglezrub@gmail.com" class="contacto-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>kevinglezrub@gmail.com</span>
+                </a>
+                <a href="https://linkedin.com/in/kevin-alberto-gonz%C3%A1lez-rubio-b0b394127/" target="_blank" class="contacto-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/kevinglezrub" target="_blank" class="contacto-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Data Visualizations by Kevin Rubio. Todos los derechos reservados.</p>
+            <p><small>Hecho con <i class="fas fa-heart" style="color: #ff6b6b;"></i> y Power BI</small></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
